@@ -1,0 +1,96 @@
+body {
+	background-color: #fff;
+}
+
+header {
+	display: block;
+	height: 800px;
+	width: 30%
+	/*margin-top: 20px;*/
+}
+
+.nav {
+	padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	display: inline;
+	padding: 10px;
+	//text-decoration: underline;
+}
+
+a:hover{
+	cursor:pointer;
+}
+
+h1,h2,h3,h5,a,p {
+	display: inline;
+	font-weight: lighter;
+	font-size: 11px;
+}
+
+h4{
+	display: inline;
+	font-size: 11px;
+}
+
+#content-zone {
+	text-align: center;
+}
+
+//the number of items in the list will push down the margin
+//making a larger gap between pairs 
+.title{
+	font-weight: bolder !important;
+} 
+
+.year{
+	margin-top: -20px;
+	color: grey;
+	font-size: 10x;
+}
+
+.textbox{
+	text-align: center;
+	width: 25%;
+	margin-top: -20px;
+	margin-bottom: 20px;
+	display: inline-grid;
+	/*border: blue solid 1px;*/
+}
+
+.renderedText{
+	margin-top: 100px;
+}
+
+.image-frame{
+	width:838px; 
+	height:459px; 
+	margin:0 auto;
+	/*border: red solid 1px;*/
+} 
+
+.image {
+	display:block; 
+	width:438px; 
+	margin: auto;
+	height:438px;
+	/*border: orange solid 1px;*/
+}
+
+
+.pair{
+	position: relative; 
+   	width: 100%;
+   	/*border: green solid 1px;*/
+}
+
+.top{
+	margin-top: 65px;
+}
